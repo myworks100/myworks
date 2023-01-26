@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    color: #61dafb;
+}
+
+.body{
+    background-color: #0f1724;
+}
+
+.hero a, footer a, .projectInner1{
+    text-decoration: none;
+    color: #61dafb;
+}
+
+.projects{
+    min-height: 150px;
+    /*border: gold solid 2px;*/
+    box-shadow: 0px 0px 12px #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #61dafb;
+    transition: 0.5s;
+}
+
+.projects:hover{
+    box-shadow: 0px 0px 30px #FFFFFF;
+    font-size: 25px;
+    background-color: rgba(255,255,255,0.8);
+    color: #0f1724
+}
+
+.projects:active{
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.2s;
+}
+
+.projectInner{
+    /*min-height: 300px;*/
+    min-width: 180px;
+    /*border: gold solid 2px;*/
+    box-shadow: 0px 0px 12px #FFFFFF;
+    border-radius: 30px;
+}
+.projectInner img{
+    max-width: 100%;
+    /*m-height: 200px;*/
+    /*border: gold solid 2px;*/
+    box-shadow: 0px 0px 12px #FFFFFF;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.projectInner img:hover{
+    box-shadow: 0px 0px 40px #FFFFFF;
+    /*border-radius: 10px;*/
+}
+
+
+.projectInner1, .back{
+    transition: 0.3s;
+}
+
+.projectInner1:hover, .back:hover{
+    letter-spacing: 3px;
+    color: gold;
+}
